@@ -1,0 +1,36 @@
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 2px solid #736161;
+
+}
+  h5 {
+	display: inline-block;
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(0, 0, 0);
+	span {
+	color: rgb(0, 191, 243);
+  }
+}
+h6 {
+	font-size: 18px;
+	font-family: "Arial";
+	color: red;
+
+	span {
+		padding: 9px;
+		position: relative;
+		 &:before {
+	    	content: '';
+	    	position: absolute;
+	    	width: 35px;
+	    	height: 2px;
+	    	bottom: 7px;
+	    	margin-left: -7px;
+	    	background-color: red; 	
+
+    	}
+	}
+}

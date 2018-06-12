@@ -1,0 +1,227 @@
+@media #{$tableMode} {
+header {
+	height: auto;
+}
+.container {
+	padding: 0;
+}
+.navbar-brand {
+	padding: 0;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	a{
+		img{
+			float: left;
+			margin-top: -5px;
+			padding-right: 5px;
+		}
+		span{
+			margin-left: 5px;
+			font-size: 15px;
+		}
+	}
+}
+.contact-box  {
+	margin-top: 15px;
+	a {	
+		display: block;
+
+		&:first-child {
+			margin-right: 0px;
+		}
+	}
+}
+.social {
+	    margin-top: 30px;
+}
+.hotel-detail {
+	font-family: "Trebuchet MS";
+	margin-top:20px;
+}
+.name-underline {
+		font-size: 30px;
+}
+.star-list {
+	ul{	
+		margin: 0 10px;
+		li {
+			i{	
+				font-size: 30px;
+			}		
+		}
+	}
+}
+.hotel-price {
+    font-size: 30px;
+	p {
+		display: inline-block; 
+	}
+}
+.hotel-rating {
+	p { 
+		font-size: 13px;
+	}
+	dl {				
+		dt {
+			font-size: 13px;
+			&:first-child {
+					width: 44px;
+					height: 44px;
+				&:after {
+						content: '8.4';
+						font-size: 18px;
+					}
+				}
+			i {	
+				font-size: 12px;
+			}
+		}
+	}
+}
+.sunny-days{
+	p {
+		 font-size: 24px;
+	}
+	p:first-child {
+		font-size: 90px;
+	}
+}
+}
+
+
+@media #{$mobileMode} {
+header {
+	background: #2fc0e0;
+	height: auto;
+}
+.container {
+    padding: 0 15px;
+}
+
+.contact-box {
+	margin-bottom: 20px;
+}
+.social {
+	padding-left: 0px;
+
+}
+.main-tur {
+}
+svg {
+	display: none;
+}
+.hot-tur{
+    margin-left: 6px;
+	bottom: 15px;
+	width: 160px;
+	height: 160px;
+
+	a { 
+		font-size: 17px;
+	}
+	.tur-code {
+		line-height: 0.143;
+		span {
+			margin-top: 10px;
+		    margin-left: 46px;
+			font-size: 14px;		
+		}
+	}
+ 
+}
+.hotel-detail {
+	margin-top: 20px;
+	text-align: center;
+}
+.name-underline {
+	display: block;
+	text-align: center;
+}
+.star-list {
+	display: block;
+	text-align: center;
+	ul{	
+		margin-top: 12px;
+		display: inline-block;
+		li {
+
+			i{	
+				padding: 0 12px;
+				font-size: 30px;
+
+			}		
+		}
+	}
+}
+.hotel-price {
+	display: block;
+	text-align: center;
+}
+.hotel-rating {
+	text-align: center;
+	p { 
+		font-size: 10px;
+	}
+	ul {
+		padding-left: 0px;
+		margin-left: 0px;				
+		li {
+			margin-left: 3px;
+			font-size: 12px;
+			&:first-child {
+					width: 30px;
+					height: 30px;
+					padding-top: 8px;
+				&:after {
+						content: '8.4';
+						font-size: 15px;
+					}
+				}
+			span {	
+				font-size: 14px;
+			}
+		}
+	}
+}
+.sunny-days{
+	p {
+		 font-size: 28px;
+		 text-align: center;
+	}
+	p:first-child {
+		font-size: 80px;
+		text-align: center;
+	}
+}
+
+
+}
+@media #{$iPhone5} {
+.contact-box a:first-child {
+    font-size: 25px;
+}
+.hot-tur{
+    margin-left: 5px;
+	bottom: 0px;
+	width: 146px;
+	height: 146px;
+
+	a { 
+		font-size: 17px;
+	}
+	.tur-code {
+	 	margin-top: 13px;
+		span {
+		    margin-left: 39px;		
+		}
+	}
+}
+.name-underline {
+  h1{
+  	font-size: 30px;
+  	display: block;
+	text-align: center;
+	}
+}
+
+}

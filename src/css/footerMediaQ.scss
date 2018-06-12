@@ -1,0 +1,16 @@
+@media #{$tableMode} {
+	.social_bottom {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+}
+@media #{$mobileMode} {
+	footer {
+		text-align: center;
+	}
+	.social_bottom {
+	    float: none;
+	    margin-bottom: 10px;
+	    padding-left: 0;
+	}
+}
